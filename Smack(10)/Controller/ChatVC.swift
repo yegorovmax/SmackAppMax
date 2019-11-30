@@ -153,7 +153,7 @@ self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer(
     
     func getMessages(){
         guard let channelId = MessageService.instance.selectedChannel?.id else {return}
-        MessageService.instance.findAllMassages(channelId: channelId) { (success) in
+        MessageService.instance.findAllMessages(channelId: channelId) { (success) in
             if success {
                 self.tableView.reloadData()
                 let endIndex = IndexPath(row: MessageService.instance.messages.count - 1, section: 0)

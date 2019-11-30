@@ -11,7 +11,7 @@ import Foundation
 typealias CopletionHandler = (_ Success: Bool)->()
 
 //url constants
-let BASE_URL = "https://chatychatmax.herokuapp.com/v1/"
+var BASE_URL =  "https://chatychatmax.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"

@@ -42,7 +42,7 @@ class MessageService {
         }
     }
     
-    func findAllMassages (channelId: String, completion: @escaping CopletionHandler){
+    func findAllMessages (channelId: String, completion: @escaping CopletionHandler){
         Alamofire.request("\(URL_GET_MESSAGES)\(channelId)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER)
         .responseJSON{ (response) in
             if response.result.error == nil {
@@ -62,6 +62,7 @@ class MessageService {
                         self.messages.append(message)
                     }
                     completion(true)
+                    debugPrint(response as Any)
                 }
                 
             } else {

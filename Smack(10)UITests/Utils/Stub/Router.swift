@@ -13,8 +13,16 @@ import Foundation
 class OrderMeRouter: Router {
 
     private enum Endpoint {
-        static let places = "/places"
-        static let menu = "/menu/123"
+        static let registerUser = "account/register"
+        static let loginUser = "account/login"
+        static let addUser = "user/add"
+        static let findAllUsers = "user"
+        static let findUserById = "user/111"
+        static let addChannel = "channel/add"
+        static let findAllChannels = "channel"
+        static let findUserByEmail = "user/byEmail/test@test.test"
+        static let findAllMessages = "message/byChannel/222"
+        
     }
 
     let session: Session = .shared
@@ -22,80 +30,149 @@ class OrderMeRouter: Router {
     override init() {
         super.init()
 
-        setupPlacesRoutes()
-        setupMenuRoutes()
+        setupRegisterUser()
+        setupLoginUser()
+        setupAddUserRespond()
+  //      setupAddUserPostCall()
+        setupFindUserEmail()
+        setUpFindAllChannels()
+        setupFindAllMessages()
+        setupAddChannel()
     }
-
-    private func setupPlacesRoutes() {
-        self[Endpoint.places] = JSONResponse { _ -> Any in
-            return [
-                ["address": self.session.restaurants[0].address,
-                 "name": self.session.restaurants[0].name,
-                 "id": self.session.restaurants[0].identifier,
-                 "imagePath": self.session.restaurants[0].imagePath,
-                 "phone": self.session.restaurants[0].phone,
-                 "longitude": self.session.restaurants[0].longitude,
-                 "latitude": self.session.restaurants[0].latitude
-                ],
-                ["address": self.session.restaurants[1].address,
-                 "name": self.session.restaurants[1].name,
-                 "id": self.session.restaurants[1].identifier,
-                 "imagePath": self.session.restaurants[1].imagePath,
-                 "phone": self.session.restaurants[1].phone,
-                 "longitude": self.session.restaurants[1].longitude,
-                 "latitude": self.session.restaurants[1].latitude
+    
+    private func setupAddChannel() {
+        self[Endpoint.addChannel] = JSONResponse { _ -> Any in
+            return
+                [
+                    "message": self.session.addChannel[0].message
                 ]
-            ]
         }
     }
     
-    private func setupMenuRoutes() {
-        self[Endpoint.menu] = JSONResponse { _ -> Any in
-        return [
-            "categories": [
+    private func setupFindAllMessages() {
+           self[Endpoint.findAllMessages] = JSONResponse { _ -> Any in
+               return
+                   [
+                    [
+                        "__v": self.session.findAllMessages[0].vMessages,
+                        "_id": self.session.findAllMessages[0].id,
+                        "channelId": self.session.findAllMessages[0].channelId,
+                        "messageBody": self.session.findAllMessages[0].messageBody,
+                        "timeStamp": self.session.findAllMessages[0].timeStamp,
+                        "userAvatar": self.session.findAllMessages[0].userAvatar,
+                        "userAvatarColor": self.session.findAllMessages[0].userAvatarColor,
+                        "userId": self.session.findAllMessages[0].userId,
+                        "userName": self.session.findAllMessages[0].userName
+                    ],
+                    [
+                        "__v": self.session.findAllMessages[1].vMessages,
+                        "_id": self.session.findAllMessages[1].id,
+                        "channelId": self.session.findAllMessages[1].channelId,
+                        "messageBody": self.session.findAllMessages[1].messageBody,
+                        "timeStamp": self.session.findAllMessages[1].timeStamp,
+                        "userAvatar": self.session.findAllMessages[1].userAvatar,
+                        "userAvatarColor": self.session.findAllMessages[1].userAvatarColor,
+                        "userId": self.session.findAllMessages[1].userId,
+                        "userName": self.session.findAllMessages[1].userName
+                    ],
+                    [
+                        "__v": self.session.findAllMessages[2].vMessages,
+                        "_id": self.session.findAllMessages[2].id,
+                        "channelId": self.session.findAllMessages[2].channelId,
+                        "messageBody": self.session.findAllMessages[2].messageBody,
+                        "timeStamp": self.session.findAllMessages[2].timeStamp,
+                        "userAvatar": self.session.findAllMessages[2].userAvatar,
+                        "userAvatarColor": self.session.findAllMessages[2].userAvatarColor,
+                        "userId": self.session.findAllMessages[2].userId,
+                        "userName": self.session.findAllMessages[2].userName
+                    ]
+                   ]
+               
+           }
+       }
+
+    private func setUpFindAllChannels() {
+        self[Endpoint.findAllChannels] = JSONResponse { _ -> Any in
+            return
                 [
-                    "id": self.session.menuCategory[0].categoryId,
-                    "name": self.session.menuCategory[0].categoryName,
-                    "placeId": self.session.menuCategory[0].placeID
-                ],
-                [
-                    "id": self.session.menuCategory[1].categoryId,
-                    "name": self.session.menuCategory[1].categoryName,
-                    "placeId": self.session.menuCategory[1].placeID
+                    [
+                    "__v": self.session.findAllChannels[0].vChannels,
+                    "_id": self.session.findAllChannels[0].id,
+                    "description": self.session.findAllChannels[0].description,
+                    "name": self.session.findAllChannels[0].name
+                    ],
+                    [
+                        "__v": self.session.findAllChannels[1].vChannels,
+                        "_id": self.session.findAllChannels[1].id,
+                        "description": self.session.findAllChannels[1].description,
+                        "name": self.session.findAllChannels[1].name
+                    ],
+                    [
+                        "__v": self.session.findAllChannels[2].vChannels,
+                        "_id": self.session.findAllChannels[2].id,
+                        "description": self.session.findAllChannels[2].description,
+                        "name": self.session.findAllChannels[2].name
+                    ]
                 ]
-            ],
-            "dishes": [
-                [
-                    "categoryId": self.session.dish[0].categoryId,
-                    "price": self.session.dish[0].dishPrice,
-                    "id": self.session.dish[0].dishId,
-                    "name": self.session.dish[0].dishName,
-                    "description": self.session.dish[0].dishDescription
-                ],
-                [
-                    "categoryId": self.session.dish[1].categoryId,
-                    "price": self.session.dish[1].dishPrice,
-                    "id": self.session.dish[1].dishId,
-                    "name": self.session.dish[1].dishName,
-                    "description": self.session.dish[1].dishDescription
-                ],
-                [
-                    "categoryId": self.session.dish[2].categoryId,
-                    "price": self.session.dish[2].dishPrice,
-                    "id": self.session.dish[2].dishId,
-                    "name": self.session.dish[2].dishName,
-                    "description": self.session.dish[2].dishDescription
-                ],
-                [
-                    "categoryId": self.session.dish[3].categoryId,
-                    "price": self.session.dish[3].dishPrice,
-                    "id": self.session.dish[3].dishId,
-                    "name": self.session.dish[3].dishName,
-                    "description": self.session.dish[3].dishDescription
-                ]
-                
-            ]
-        ]
+            
         }
     }
+    
+    private func setupRegisterUser() {
+        self[Endpoint.registerUser] = JSONResponse { _ -> Any in
+            return
+                ["email": self.session.registerUser[0].email,
+                 "password": self.session.registerUser[0].password
+                ]
+            
+        }
+    }
+    
+    private func setupLoginUser() {
+        self[Endpoint.loginUser] = JSONResponse { _ -> Any in
+            return [
+                "user": self.session.loginUser[0].user,
+                 "token": self.session.loginUser[0].token
+                ]
+        }
+    }
+    
+    private func setupAddUserRespond() {
+        self[Endpoint.addUser] = JSONResponse { _ -> Any in
+            return [
+                "__v": self.session.addUser[0].vAddUser,
+                "avatarColor": self.session.addUser[0].avatarColor,
+                "avatarName": self.session.addUser[0].avatarName,
+                "email": self.session.addUser[0].email,
+                "name": self.session.addUser[0].name,
+                "_id": self.session.addUser[0].id
+                ]
+        }
+    }
+    
+    private func setupAddUserPostCall() {
+           self[Endpoint.addUser] = JSONResponse { _ -> Any in
+               return [
+                   "avatarColor": self.session.addUserPostCall[0].avatarColor,
+                   "avatarName": self.session.addUserPostCall[0].avatarName,
+                   "email": self.session.addUserPostCall[0].email,
+                   "name": self.session.addUserPostCall[0].name
+                   ]
+           }
+       }
+    
+    private func setupFindUserEmail() {
+        self[Endpoint.findUserByEmail] = JSONResponse { _ -> Any in
+            return [
+                "_id": self.session.findUserByEmail[0].id,
+                "avatarColor": self.session.findUserByEmail[0].avatarColor,
+                "avatarName": self.session.findUserByEmail[0].avatarName,
+                "email": self.session.findUserByEmail[0].email,
+                "name": self.session.findUserByEmail[0].name,
+                "__v": self.session.findUserByEmail[0].vEmail
+            ]
+        }
+    }
+
+    
 }
