@@ -49,6 +49,10 @@
 		52228BE8238A5BB70051293B /* ChannelsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228BE7238A5BB70051293B /* ChannelsScreen.swift */; };
 		52228BEA238A5C220051293B /* LoginAndCreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228BE9238A5C220051293B /* LoginAndCreateAccount.swift */; };
 		52228BEC238A5CDC0051293B /* SmackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228BEB238A5CDC0051293B /* SmackScreen.swift */; };
+		524794DF238B35D9004A4835 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524794DE238B35D9004A4835 /* Stub.swift */; };
+		524794E3238B8254004A4835 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524794E2238B8254004A4835 /* User.swift */; };
+		524794E5238B896A004A4835 /* SingletonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524794E4238B896A004A4835 /* SingletonStore.swift */; };
+		524794E72390C8ED004A4835 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524794E62390C8ED004A4835 /* CreateAccountScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,10 @@
 		52228BE7238A5BB70051293B /* ChannelsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsScreen.swift; sourceTree = "<group>"; };
 		52228BE9238A5C220051293B /* LoginAndCreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndCreateAccount.swift; sourceTree = "<group>"; };
 		52228BEB238A5CDC0051293B /* SmackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackScreen.swift; sourceTree = "<group>"; };
+		524794DE238B35D9004A4835 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		524794E2238B8254004A4835 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		524794E4238B896A004A4835 /* SingletonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonStore.swift; sourceTree = "<group>"; };
+		524794E62390C8ED004A4835 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
 		72846E6C3D820EA4F6560897 /* Pods-Smack(10).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack(10).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack(10)/Pods-Smack(10).debug.xcconfig"; sourceTree = "<group>"; };
 		9DC619CEC1D432553F98A9D8 /* libPods-Smack(10)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smack(10)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1497161DE7AC7153EAB8607 /* Pods-Smack(10)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack(10)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack(10)UITests/Pods-Smack(10)UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +236,8 @@
 			children = (
 				08162FD123844D0000F19523 /* Channel.swift */,
 				08CC90542385CFEC006E4FF2 /* Message.swift */,
+				524794E2238B8254004A4835 /* User.swift */,
+				524794E4238B896A004A4835 /* SingletonStore.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -267,18 +277,11 @@
 				52228BD9238A57110051293B /* Screens */,
 				52228BD8238A56FC0051293B /* Utils */,
 				52228BD7238A56E90051293B /* Tests */,
-				52228BD6238A56B90051293B /* StubTests */,
+				524794DD238B35A5004A4835 /* StubTest */,
 				52228BCE238A4A3E0051293B /* Smack_10_UITests.swift */,
 				52228BD0238A4A3E0051293B /* Info.plist */,
 			);
 			path = "Smack(10)UITests";
-			sourceTree = "<group>";
-		};
-		52228BD6238A56B90051293B /* StubTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StubTests;
 			sourceTree = "<group>";
 		};
 		52228BD7238A56E90051293B /* Tests */ = {
@@ -305,6 +308,7 @@
 				52228BE5238A5A9F0051293B /* LoginScreen.swift */,
 				52228BE7238A5BB70051293B /* ChannelsScreen.swift */,
 				52228BEB238A5CDC0051293B /* SmackScreen.swift */,
+				524794E62390C8ED004A4835 /* CreateAccountScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -317,6 +321,14 @@
 				52228BE3238A59150051293B /* BaseStubTest.swift */,
 			);
 			path = Stub;
+			sourceTree = "<group>";
+		};
+		524794DD238B35A5004A4835 /* StubTest */ = {
+			isa = PBXGroup;
+			children = (
+				524794DE238B35D9004A4835 /* Stub.swift */,
+			);
+			path = StubTest;
 			sourceTree = "<group>";
 		};
 		F6E0F243399CFBACA341C7DB /* Pods */ = {
@@ -497,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524794E3238B8254004A4835 /* User.swift in Sources */,
 				086D163C237D31AD001AEA69 /* ChatVC.swift in Sources */,
 				086D1624237D2D4B001AEA69 /* ViewController.swift in Sources */,
 				08CC905A2385F20B006E4FF2 /* KeyboardBoundView.swift in Sources */,
@@ -511,6 +524,7 @@
 				08162FD42384608500F19523 /* ChannelCell.swift in Sources */,
 				087A6D08237FAD41006D523C /* UserDataService.swift in Sources */,
 				087A6D06237F7932006D523C /* RoundedButton.swift in Sources */,
+				524794E5238B896A004A4835 /* SingletonStore.swift in Sources */,
 				087699B6237DE70D004EEC33 /* Constants.swift in Sources */,
 				08162FDC2384984400F19523 /* SocketService.swift in Sources */,
 				087A6D04237F3F66006D523C /* AuthService.swift in Sources */,
@@ -530,11 +544,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52228BE2238A58B50051293B /* Session.swift in Sources */,
+				524794E72390C8ED004A4835 /* CreateAccountScreen.swift in Sources */,
 				52228BEA238A5C220051293B /* LoginAndCreateAccount.swift in Sources */,
 				52228BE0238A587A0051293B /* Router.swift in Sources */,
 				52228BDC238A57830051293B /* BaseTest.swift in Sources */,
 				52228BE8238A5BB70051293B /* ChannelsScreen.swift in Sources */,
 				52228BCF238A4A3E0051293B /* Smack_10_UITests.swift in Sources */,
+				524794DF238B35D9004A4835 /* Stub.swift in Sources */,
 				52228BE6238A5A9F0051293B /* LoginScreen.swift in Sources */,
 				52228BE4238A59150051293B /* BaseStubTest.swift in Sources */,
 				52228BDE238A585D0051293B /* BaseScreen.swift in Sources */,

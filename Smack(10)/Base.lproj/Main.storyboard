@@ -210,6 +210,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJK-r5-h4Z">
                                 <rect key="frame" x="320" y="118" width="22" height="22"/>
+                                <accessibility key="accessibilityConfiguration" identifier="addChannelBtn"/>
                                 <state key="normal" image="addChannelButton"/>
                                 <connections>
                                     <action selector="addChannelBtnPressed:" destination="9RJ-3P-dOV" eventType="touchUpInside" id="7Yh-Va-ucJ"/>
@@ -453,6 +454,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIt-Ne-2VI" customClass="RoundedButton" customModule="Smack_10_" customModuleProvider="target">
                                 <rect key="frame" x="82" y="738" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" identifier="createAccountButton"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="qyX-Ux-TFJ"/>
                                     <constraint firstAttribute="height" constant="50" id="yzP-6C-f5U"/>
@@ -477,6 +479,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UI4-t4-sbh">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="usernameField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="hNJ-x0-7mn"/>
                                         </constraints>
@@ -494,6 +497,7 @@
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L0H-rr-mcN">
                                         <rect key="frame" x="0.0" y="50" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="emailField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="QNU-Hc-4dh"/>
                                         </constraints>
@@ -511,6 +515,7 @@
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gwo-yS-pQ6">
                                         <rect key="frame" x="0.0" y="100" width="250" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="passwordField"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="pyq-VK-HuU"/>
                                         </constraints>
@@ -664,6 +669,7 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NRq-gm-Ygw">
                                                     <rect key="frame" x="10" y="10" width="80" height="80"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="imageIcon"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>

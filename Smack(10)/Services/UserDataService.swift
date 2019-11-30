@@ -16,6 +16,7 @@ class UserDataService {
     public private(set) var avatarName = ""
     public private(set) var email = ""
     public private(set) var name = ""
+    public private(set) var user = ""
    
     func setUserData(id:String, color: String, avatarName: String, email: String, name: String){
         self.id = id
@@ -70,4 +71,16 @@ class UserDataService {
         MessageService.instance.clearChannels()
         MessageService.instance.clearMessages()
     }
+    
+//    func setupNoAuthUser() {
+//        id = "111UserID"
+//        avatarName = "dark56767676"
+//        avatarColor = "[0.9529411764705882, 0.9607843137254902, 0.5215686274509804, 1]"
+//        user = "test@test.test"
+//        name = "stubName"
+//        AuthService.instance.isLoggedIn = true
+//        AuthService.instance.userEmail = "test@test.test"
+//        AuthService.instance.authToken = "123STUBTOKEN"
+//        MessageService.instance.findAllChannel(completion: CopletionHandler)
+//    }
 }

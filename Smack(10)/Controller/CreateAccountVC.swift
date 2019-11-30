@@ -28,7 +28,6 @@ class CreateAccountVC: UIViewController {
         setupView()
     }
     override func viewDidAppear(_ animated: Bool) {
-        print("\(UserDataService.instance.avatarName)Hello")
         if UserDataService.instance.avatarName != "" {
             userImg.image = UIImage(named: UserDataService.instance.avatarName)
             avatarName = UserDataService.instance.avatarName

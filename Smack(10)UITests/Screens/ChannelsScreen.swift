@@ -14,7 +14,11 @@ class ChannelsScreen: BaseScreen {
     private let userNameLoginButton: XCUIElement = app.buttons.element(matching: .button, identifier: "loginButtonUserName")
     private let smackBurgerButton: XCUIElement = app.buttons["smackBurger"]
     private let logOutButton: XCUIElement = app.buttons["Logout"]
-
+    private let addChannelButton: XCUIElement = app.buttons.element(matching: .button, identifier: "addChannelBtn")
+    private let channelNameField: XCUIElement = app.textFields.element(matching: .textField, identifier: "channelNameField")
+    private let channelDescriptionField: XCUIElement = app.textFields.element(matching: .textField, identifier: "channelDescriptionField")
+    private let createChannelButton: XCUIElement = app.buttons.element(matching: .button, identifier: "createChannelBtn")
+    
     
     
     required init() {
@@ -36,6 +40,14 @@ class ChannelsScreen: BaseScreen {
         return ChannelsScreen()
     }
 
+    func createCahnnel(channelName: String, channelDescription: String) {
+        tap(addChannelButton)
+        tap(channelNameField)
+        type(channelName, to: channelNameField)
+        tap(channelDescriptionField)
+        type(channelDescription, to: channelDescriptionField)
+        tap(createChannelButton)
+    }
 }
 
 // MARK: - Visibility

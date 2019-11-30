@@ -15,6 +15,7 @@ class AuthService {
     let defaults = UserDefaults.standard
     
     var isLoggedIn : Bool {
+        
         get {
             return defaults.bool(forKey: LOGGED_IN_KEY)
         }
@@ -25,7 +26,7 @@ class AuthService {
     
     var authToken : String {
         get {
-            return defaults.value(forKey: TOKEN_KEY) as! String
+            return "defaults.value(forKey: TOKEN_KEY)"
         }
         set {
             defaults.set(newValue, forKey: TOKEN_KEY)
@@ -54,6 +55,7 @@ class AuthService {
             { (response) in
                 if response.result.error == nil {
                     completion(true)
+                    debugPrint(response as Any)
                 } else {
                     completion(false)
                     debugPrint(response.result.error as Any)
@@ -84,12 +86,15 @@ class AuthService {
                     self.isLoggedIn = true
                     debugPrint(response.result.error as Any)
                     completion(true)
+                    debugPrint(response as Any)
                 } else {
                     completion(false)
                     debugPrint(response.result.error as Any)
                 }
         
-        }
+                } else {
+                    sleep(1)
+                }
     }
 }
     
@@ -119,6 +124,7 @@ class AuthService {
                     
                     UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
                     completion(true)
+                    debugPrint(response as Any)
                 }
                 
             } else {
@@ -129,7 +135,8 @@ class AuthService {
     }
     
     func findUserByEmail(completion: @escaping CopletionHandler){
-        Alamofire.request("\(URL_USER_BY_EMAIL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
+        Alamofire.request("\(URL_USER_BY_EMAIL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON
+            { (response) in
             if response.result.error == nil {
                 if let json = response.result.value as? Dictionary <String, Any>{
                     guard let name = json["name"] as? String else{return}
@@ -144,6 +151,7 @@ class AuthService {
                     
                     UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
                     completion(true)
+                    debugPrint(response as Any)
                 }
                 
             } else {

@@ -14,7 +14,7 @@ import XCTest
 class BaseStubTest: XCTestCase {
 
     private let ipAddress = "http://[::1]"
-    private let port = 8383
+    private let port = 8080
 
     private var server: DefaultHTTPServer?
 
@@ -26,7 +26,7 @@ class BaseStubTest: XCTestCase {
 
         let app = XCUIApplication()
         app.launchArguments = ["noAuth", "deleteAllData"]
-        app.launchEnvironment["TEST_BASE_URL"] = "\(ipAddress):\(port)"
+        app.launchEnvironment["TEST_BASE_URL"] = "\(ipAddress):\(port)/v1/"
         app.launch()
     }
 
@@ -52,5 +52,14 @@ class BaseStubTest: XCTestCase {
             print("Server error")
         }
     }
+    
+    func isTextPresent(text: String) -> Bool {
+           if BaseScreen.app.staticTexts[text].waitForExistence(timeout: 15) ||
+               BaseScreen.app.buttons[text].waitForExistence(timeout: 15) {
+               return true
+           } else {
+               return false
+           }
+       }
 
 }

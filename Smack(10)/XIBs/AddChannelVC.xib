@@ -39,6 +39,7 @@
                             <subviews>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZH3-T6-9E9">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
+                                    <accessibility key="accessibilityConfiguration" identifier="channelNameField"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="Zzh-LR-zV7"/>
                                     </constraints>
@@ -56,6 +57,7 @@
                                 </view>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qt3-07-7g4">
                                     <rect key="frame" x="0.0" y="50" width="250" height="20"/>
+                                    <accessibility key="accessibilityConfiguration" identifier="channelDescriptionField"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="uOQ-7k-GN2"/>
                                     </constraints>
@@ -87,6 +89,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa6-EH-KWy" customClass="RoundedButton" customModule="Smack_10_" customModuleProvider="target">
                             <rect key="frame" x="52" y="250" width="250" height="50"/>
                             <color key="backgroundColor" red="0.55092374200000005" green="0.64795849289999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <accessibility key="accessibilityConfiguration" identifier="createChannelBtn"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="250" id="UVN-Fc-7D7"/>
                                 <constraint firstAttribute="height" constant="50" id="bhr-Ho-GG9"/>

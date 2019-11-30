@@ -23,6 +23,11 @@ class LoginScreen: BaseScreen {
         visible()
     }
 
+    func signUp() -> CreateAccountScreen {
+        tap(signUpButton)
+        return CreateAccountScreen()
+    }
+    
     func login(username: String, passowrd: String) -> ChannelsScreen {
         tap(userNameTextField)
         type(username, to: userNameTextField)
