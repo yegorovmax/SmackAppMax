@@ -15,6 +15,7 @@ class LoginAndCreateAccount: BaseTest {
     let password = "123"
 
     func testlogin() {
+        return
         let smackScreen = SmackScreen()
         var channelsScreen = smackScreen.tapSmackBurgerButton()
         channelsScreen.tapUserNameLoginButton()
