@@ -16,7 +16,6 @@ class LoginScreen: BaseScreen {
     private let userNameTextField: XCUIElement = app.textFields.element(boundBy: 1)
     private let passwordTextField: XCUIElement = app.secureTextFields.element(boundBy: 0)
     
-
     required init() {
         super.init()
 
