@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>36A14593-C5B1-4FF3-AE8B-0C85FC643E18</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>36A14593-C5B1-4FF3-AE8B-0C85FC643E18.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack(10) project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Smack(10)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning workspace Smack(10) with scheme Smack(10)</string>
+			<key>timeStartedRecording</key>
+			<real>596961252.35844004</real>
+			<key>timeStoppedRecording</key>
+			<real>596961252.48496103</real>
+			<key>title</key>
+			<string>Cleaning workspace Smack(10) with scheme Smack(10)</string>
+			<key>uniqueIdentifier</key>
+			<string>36A14593-C5B1-4FF3-AE8B-0C85FC643E18</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

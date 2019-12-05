@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "dd9d8aafcaf95717828e647afd3b32d3"
+build_time: [1575268478, 776425000]
+inputs:
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Readers/DataReader.swift": [1574584172, 382647596]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Responses/DataResponse.swift": [1574584172, 383069281]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Responses/DelayResponse.swift": [1574584172, 383264725]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Readers/JSONReader.swift": [1574584172, 382751214]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Responses/JSONResponse.swift": [1574584172, 383451771]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Router.swift": [1574584172, 383605514]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/SWGIWebApp.swift": [1574584172, 383722480]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Readers/URLParametersReader.swift": [1574584172, 382849739]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/WebApp.swift": [1574584172, 383893483]

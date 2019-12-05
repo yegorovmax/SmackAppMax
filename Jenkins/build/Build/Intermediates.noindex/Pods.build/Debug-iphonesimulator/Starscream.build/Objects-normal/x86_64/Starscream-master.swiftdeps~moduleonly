@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "26f852d295b2138fada2aa4313ce50c3"
+build_time: [1575268452, 825626000]
+inputs:
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Starscream/Sources/Starscream/Compression.swift": [1574584172, 391777532]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Starscream/Sources/Starscream/SSLClientCertificate.swift": [1574584172, 391884390]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Starscream/Sources/Starscream/SSLSecurity.swift": [1574584172, 392006365]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Starscream/Sources/Starscream/WebSocket.swift": [1574584172, 392300203]
