@@ -1,0 +1,12 @@
+module EnvoyAmbassador {
+  umbrella header "EnvoyAmbassador-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module EnvoyAmbassador.Swift {
+  header "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Jenkins/build/Build/Products/Debug-iphonesimulator/EnvoyAmbassador/Swift Compatibility Header/EnvoyAmbassador-Swift.h"
+  requires objc
+}

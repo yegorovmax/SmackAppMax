@@ -1,0 +1,335 @@
+User defaults from command line:
+    IDETestRunSpecificationPath = /Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Jenkins/build/Build/Products/Smack(10)_iphonesimulator13.2-x86_64.xctestrun
+
+2019-12-01 22:34:56.697237-0800 Smack(10)UITests-Runner[55228:798807] Running tests...
+Test Suite 'All tests' started at 2019-12-01 22:34:57.109
+Test Suite 'Smack(10)UITests.xctest' started at 2019-12-01 22:34:57.110
+Test Suite 'LoginAndCreateAccount' started at 2019-12-01 22:34:57.110
+Test Case '-[Smack_10_UITests.LoginAndCreateAccount testlogin]' started.
+    t =     0.00s Start Test at 2019-12-01 22:34:57.111
+    t =     0.03s Set Up
+    t =     0.03s     Open volha.Smack-10-
+    t =     0.05s         Launch volha.Smack-10-
+    t =     0.66s             Setting up automation session
+    t =     0.68s             Wait for volha.Smack-10- to idle
+    t =     1.72s Tear Down
+Test Case '-[Smack_10_UITests.LoginAndCreateAccount testlogin]' passed (1.930 seconds).
+Test Suite 'LoginAndCreateAccount' passed at 2019-12-01 22:34:59.041.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.930 (1.931) seconds
+Test Suite 'Smack_10_UITests' started at 2019-12-01 22:34:59.042
+Test Case '-[Smack_10_UITests.Smack_10_UITests testExample]' started.
+    t =     0.00s Start Test at 2019-12-01 22:34:59.043
+    t =     0.02s Set Up
+    t =     0.02s Tear Down
+Test Case '-[Smack_10_UITests.Smack_10_UITests testExample]' passed (0.019 seconds).
+Test Case '-[Smack_10_UITests.Smack_10_UITests testLaunchPerformance]' started.
+    t =     0.00s Start Test at 2019-12-01 22:34:59.062
+    t =     0.01s Set Up
+    t =     0.02s Open volha.Smack-10-
+    t =     0.03s     Launch volha.Smack-10-
+    t =     0.03s         Terminate volha.Smack-10-:55229
+    t =     1.50s         Setting up automation session
+    t =     1.53s         Wait for volha.Smack-10- to idle
+    t =     3.00s Open volha.Smack-10-
+    t =     3.02s     Launch volha.Smack-10-
+    t =     3.02s         Terminate volha.Smack-10-:55240
+    t =     4.45s         Setting up automation session
+    t =     4.48s         Wait for volha.Smack-10- to idle
+    t =     5.66s Open volha.Smack-10-
+    t =     5.67s     Launch volha.Smack-10-
+    t =     5.67s         Terminate volha.Smack-10-:55247
+    t =     7.15s         Setting up automation session
+    t =     7.16s         Wait for volha.Smack-10- to idle
+    t =     8.34s Open volha.Smack-10-
+    t =     8.35s     Launch volha.Smack-10-
+    t =     8.35s         Terminate volha.Smack-10-:55248
+    t =     9.85s         Setting up automation session
+    t =     9.87s         Wait for volha.Smack-10- to idle
+    t =    11.04s Open volha.Smack-10-
+    t =    11.06s     Launch volha.Smack-10-
+    t =    11.06s         Terminate volha.Smack-10-:55259
+    t =    12.56s         Setting up automation session
+    t =    12.58s         Wait for volha.Smack-10- to idle
+    t =    13.78s Open volha.Smack-10-
+    t =    13.80s     Launch volha.Smack-10-
+    t =    13.80s         Terminate volha.Smack-10-:55260
+    t =    15.25s         Setting up automation session
+    t =    15.28s         Wait for volha.Smack-10- to idle
+2019-12-01 22:35:15.564087-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+2019-12-01 22:35:15.564330-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+2019-12-01 22:35:15.564594-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+2019-12-01 22:35:15.564939-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+2019-12-01 22:35:15.565205-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+2019-12-01 22:35:15.565464-0800 Smack(10)UITests-Runner[55228:798807] [Default] Extractor called processingCompletionBlock but self is nil!
+/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Smack(10)UITests/Smack_10_UITests.swift:32: Test Case '-[Smack_10_UITests.Smack_10_UITests testLaunchPerformance]' measured [OS Signpost Duration (AppLaunch), s] average: 0.229, relative standard deviation: 5.629%, values: [0.210750, 0.244456, 0.228400, 0.219062, 0.241599], performanceMetricID:com.apple.dt.XCTMetric_OSSignpost-AppLaunch.duration, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.000, maxStandardDeviation: 0.000
+    t =    16.56s Tear Down
+Test Case '-[Smack_10_UITests.Smack_10_UITests testLaunchPerformance]' passed (16.769 seconds).
+Test Suite 'Smack_10_UITests' passed at 2019-12-01 22:35:15.831.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 16.788 (16.789) seconds
+Test Suite 'Stub' started at 2019-12-01 22:35:15.832
+Test Case '-[Smack_10_UITests.Stub testAddNewChannelStub]' started.
+    t =     0.00s Start Test at 2019-12-01 22:35:15.833
+    t =     0.02s Set Up
+    t =     0.02s     Open volha.Smack-10-
+    t =     0.03s         Launch volha.Smack-10-
+    t =     0.03s             Terminate volha.Smack-10-:55261
+    t =     1.68s             Setting up automation session
+    t =     1.69s             Wait for volha.Smack-10- to idle
+    t =     2.74s Waiting 25.0s for "smackBurger" Button to exist
+    t =     3.75s     Checking `Expect predicate `exists == 1` for object "smackBurger" Button`
+    t =     3.75s         Checking existence of `"smackBurger" Button`
+    t =     3.79s Tap "smackBurger" Button
+    t =     3.79s     Wait for volha.Smack-10- to idle
+    t =     3.80s     Find the "smackBurger" Button
+    t =     3.81s     Check for interrupting elements affecting "smackBurger" Button
+    t =     3.82s     Synthesize event
+    t =     3.90s     Wait for volha.Smack-10- to idle
+    t =     4.21s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =     5.25s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =     5.25s         Checking existence of `"CHANNELS" StaticText`
+    t =     5.27s Tap "loginButtonUserName" Button
+    t =     5.27s     Wait for volha.Smack-10- to idle
+    t =     5.28s     Find the "loginButtonUserName" Button
+    t =     5.30s     Check for interrupting elements affecting "loginButtonUserName" Button
+    t =     5.31s     Synthesize event
+    t =     5.38s     Wait for volha.Smack-10- to idle
+    t =     5.42s Waiting 25.0s for "logInButton" Button to exist
+    t =     6.42s     Checking `Expect predicate `exists == 1` for object "logInButton" Button`
+    t =     6.42s         Checking existence of `"logInButton" Button`
+    t =     6.45s Tap TextField
+    t =     6.45s     Wait for volha.Smack-10- to idle
+    t =     6.47s     Find the TextField
+    t =     6.48s     Check for interrupting elements affecting "username" TextField
+    t =     6.50s     Synthesize event
+    t =     6.57s     Wait for volha.Smack-10- to idle
+    t =     6.67s Type 'test@test.test' into "username" TextField
+    t =     6.67s     Wait for volha.Smack-10- to idle
+    t =     7.16s     Find the "username" TextField
+    t =     7.19s     Check for interrupting elements affecting "username" TextField
+    t =     7.22s     Synthesize event
+    t =     7.50s     Wait for volha.Smack-10- to idle
+    t =     7.52s Tap SecureTextField
+    t =     7.52s     Wait for volha.Smack-10- to idle
+    t =     7.54s     Find the SecureTextField
+    t =     7.57s     Check for interrupting elements affecting "password" SecureTextField
+    t =     7.59s     Synthesize event
+    t =     7.67s     Wait for volha.Smack-10- to idle
+    t =     7.70s Type '123' into "password" SecureTextField
+    t =     7.70s     Wait for volha.Smack-10- to idle
+    t =     7.73s     Find the "password" SecureTextField
+    t =     7.75s     Check for interrupting elements affecting "password" SecureTextField
+    t =     7.77s     Synthesize event
+    t =     7.84s     Wait for volha.Smack-10- to idle
+    t =     7.85s Tap "logInButton" Button
+    t =     7.85s     Wait for volha.Smack-10- to idle
+    t =     7.87s     Find the "logInButton" Button
+    t =     7.90s     Check for interrupting elements affecting "logInButton" Button
+    t =     7.93s     Synthesize event
+    t =     8.00s     Wait for volha.Smack-10- to idle
+    t =     8.57s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =     9.57s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =     9.58s         Checking existence of `"CHANNELS" StaticText`
+    t =     9.61s Tear Down
+Test Case '-[Smack_10_UITests.Stub testAddNewChannelStub]' passed (9.818 seconds).
+Test Case '-[Smack_10_UITests.Stub testAddNewUserStub]' started.
+    t =     0.00s Start Test at 2019-12-01 22:35:25.651
+    t =     0.02s Set Up
+    t =     0.02s     Open volha.Smack-10-
+    t =     0.04s         Launch volha.Smack-10-
+    t =     0.04s             Terminate volha.Smack-10-:55262
+    t =     1.48s             Setting up automation session
+    t =     1.53s             Wait for volha.Smack-10- to idle
+    t =     2.66s Waiting 25.0s for "smackBurger" Button to exist
+    t =     3.67s     Checking `Expect predicate `exists == 1` for object "smackBurger" Button`
+    t =     3.67s         Checking existence of `"smackBurger" Button`
+    t =     3.71s Tap "smackBurger" Button
+    t =     3.71s     Wait for volha.Smack-10- to idle
+    t =     3.72s     Find the "smackBurger" Button
+    t =     3.73s     Check for interrupting elements affecting "smackBurger" Button
+    t =     3.74s     Synthesize event
+    t =     3.81s     Wait for volha.Smack-10- to idle
+    t =     4.13s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =     5.14s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =     5.14s         Checking existence of `"CHANNELS" StaticText`
+    t =     5.16s Tap "loginButtonUserName" Button
+    t =     5.16s     Wait for volha.Smack-10- to idle
+    t =     5.17s     Find the "loginButtonUserName" Button
+    t =     5.19s     Check for interrupting elements affecting "loginButtonUserName" Button
+    t =     5.20s     Synthesize event
+    t =     5.27s     Wait for volha.Smack-10- to idle
+    t =     5.31s Waiting 25.0s for "logInButton" Button to exist
+    t =     6.33s     Checking `Expect predicate `exists == 1` for object "logInButton" Button`
+    t =     6.33s         Checking existence of `"logInButton" Button`
+    t =     6.36s Tap "Don't have an account? Sign up here" Button
+    t =     6.36s     Wait for volha.Smack-10- to idle
+    t =     6.37s     Find the "Don't have an account? Sign up here" Button
+    t =     6.39s     Check for interrupting elements affecting "Don't have an account? Sign up here" Button
+    t =     6.41s     Synthesize event
+    t =     6.48s     Wait for volha.Smack-10- to idle
+    t =     6.51s Waiting 25.0s for "createAccountButton" Button to exist
+    t =     7.52s     Checking `Expect predicate `exists == 1` for object "createAccountButton" Button`
+    t =     7.52s         Checking existence of `"createAccountButton" Button`
+    t =     7.56s Tap "usernameField" TextField
+    t =     7.56s     Wait for volha.Smack-10- to idle
+    t =     7.57s     Find the "usernameField" TextField
+    t =     7.60s     Check for interrupting elements affecting "usernameField" TextField
+    t =     7.62s     Synthesize event
+    t =     7.70s     Wait for volha.Smack-10- to idle
+    t =     7.78s Type 'stubName' into "usernameField" TextField
+    t =     7.78s     Wait for volha.Smack-10- to idle
+    t =     8.26s     Find the "usernameField" TextField
+    t =     8.32s     Check for interrupting elements affecting "usernameField" TextField
+    t =     8.35s     Synthesize event
+    t =     8.51s     Wait for volha.Smack-10- to idle
+    t =     8.56s Tap "emailField" TextField
+    t =     8.56s     Wait for volha.Smack-10- to idle
+    t =     8.59s     Find the "emailField" TextField
+    t =     8.63s     Check for interrupting elements affecting "emailField" TextField
+    t =     8.66s     Synthesize event
+    t =     8.74s     Wait for volha.Smack-10- to idle
+    t =     8.79s Type 'test@test.test' into "emailField" TextField
+    t =     8.79s     Wait for volha.Smack-10- to idle
+    t =     9.54s     Find the "emailField" TextField
+    t =     9.59s     Check for interrupting elements affecting "emailField" TextField
+    t =     9.62s     Synthesize event
+    t =     9.89s     Wait for volha.Smack-10- to idle
+    t =     9.92s Tap "passwordField" SecureTextField
+    t =     9.92s     Wait for volha.Smack-10- to idle
+    t =     9.94s     Find the "passwordField" SecureTextField
+    t =     9.98s     Check for interrupting elements affecting "passwordField" SecureTextField
+    t =    10.00s     Synthesize event
+    t =    10.08s     Wait for volha.Smack-10- to idle
+    t =    10.39s Type '123' into "passwordField" SecureTextField
+    t =    10.39s     Wait for volha.Smack-10- to idle
+    t =    10.42s     Find the "passwordField" SecureTextField
+    t =    10.49s     Check for interrupting elements affecting "passwordField" SecureTextField
+    t =    10.52s     Synthesize event
+    t =    10.57s     Wait for volha.Smack-10- to idle
+    t =    10.59s Tap "Choose avatar" Button
+    t =    10.59s     Wait for volha.Smack-10- to idle
+    t =    10.61s     Find the "Choose avatar" Button
+    t =    10.65s     Check for interrupting elements affecting "Choose avatar" Button
+    t =    10.67s     Synthesize event
+    t =    10.75s     Wait for volha.Smack-10- to idle
+    t =    10.82s Tap "imageIcon" Image[0.00, 0.00]
+    t =    10.82s     Wait for volha.Smack-10- to idle
+    t =    11.31s     Find the "imageIcon" Image
+    t =    11.42s     Check for interrupting elements affecting "imageIcon" Image
+    t =    11.46s     Synthesize event
+    t =    11.49s         Find the "imageIcon" Image
+    t =    11.62s     Wait for volha.Smack-10- to idle
+    t =    11.67s Tap "createAccountButton" Button
+    t =    11.67s     Wait for volha.Smack-10- to idle
+    t =    12.19s     Find the "createAccountButton" Button
+    t =    12.23s     Check for interrupting elements affecting "createAccountButton" Button
+    t =    12.25s     Synthesize event
+    t =    12.32s     Wait for volha.Smack-10- to idle
+    t =    12.86s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =    13.89s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =    13.89s         Checking existence of `"CHANNELS" StaticText`
+    t =    13.92s Waiting 15.0s for "stubName" StaticText to exist
+    t =    14.94s     Checking `Expect predicate `exists == 1` for object "stubName" StaticText`
+    t =    14.94s         Checking existence of `"stubName" StaticText`
+    t =    14.97s Tear Down
+Test Case '-[Smack_10_UITests.Stub testAddNewUserStub]' passed (15.178 seconds).
+Test Case '-[Smack_10_UITests.Stub testLoginLogoutSub]' started.
+    t =     0.00s Start Test at 2019-12-01 22:35:40.829
+    t =     0.02s Set Up
+    t =     0.02s     Open volha.Smack-10-
+    t =     0.04s         Launch volha.Smack-10-
+    t =     0.04s             Terminate volha.Smack-10-:55271
+    t =     1.48s             Setting up automation session
+    t =     1.53s             Wait for volha.Smack-10- to idle
+    t =     2.69s Waiting 25.0s for "smackBurger" Button to exist
+    t =     3.72s     Checking `Expect predicate `exists == 1` for object "smackBurger" Button`
+    t =     3.72s         Checking existence of `"smackBurger" Button`
+    t =     3.75s Tap "smackBurger" Button
+    t =     3.75s     Wait for volha.Smack-10- to idle
+    t =     3.77s     Find the "smackBurger" Button
+    t =     3.78s     Check for interrupting elements affecting "smackBurger" Button
+    t =     3.79s     Synthesize event
+    t =     3.86s     Wait for volha.Smack-10- to idle
+    t =     4.17s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =     5.18s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =     5.18s         Checking existence of `"CHANNELS" StaticText`
+    t =     5.20s Tap "loginButtonUserName" Button
+    t =     5.20s     Wait for volha.Smack-10- to idle
+    t =     5.22s     Find the "loginButtonUserName" Button
+    t =     5.24s     Check for interrupting elements affecting "loginButtonUserName" Button
+    t =     5.25s     Synthesize event
+    t =     5.32s     Wait for volha.Smack-10- to idle
+    t =     5.35s Waiting 25.0s for "logInButton" Button to exist
+    t =     6.37s     Checking `Expect predicate `exists == 1` for object "logInButton" Button`
+    t =     6.37s         Checking existence of `"logInButton" Button`
+    t =     6.39s Tap TextField
+    t =     6.39s     Wait for volha.Smack-10- to idle
+    t =     6.41s     Find the TextField
+    t =     6.43s     Check for interrupting elements affecting "username" TextField
+    t =     6.44s     Synthesize event
+    t =     6.51s     Wait for volha.Smack-10- to idle
+    t =     6.59s Type 'test@test.test' into "username" TextField
+    t =     6.59s     Wait for volha.Smack-10- to idle
+    t =     7.08s     Find the "username" TextField
+    t =     7.11s     Check for interrupting elements affecting "username" TextField
+    t =     7.14s     Synthesize event
+    t =     7.42s     Wait for volha.Smack-10- to idle
+    t =     7.45s Tap SecureTextField
+    t =     7.45s     Wait for volha.Smack-10- to idle
+    t =     7.47s     Find the SecureTextField
+    t =     7.49s     Check for interrupting elements affecting "password" SecureTextField
+    t =     7.52s     Synthesize event
+    t =     7.60s     Wait for volha.Smack-10- to idle
+    t =     7.63s Type '123' into "password" SecureTextField
+    t =     7.63s     Wait for volha.Smack-10- to idle
+    t =     7.65s     Find the "password" SecureTextField
+    t =     7.68s     Check for interrupting elements affecting "password" SecureTextField
+    t =     7.70s     Synthesize event
+    t =     7.76s     Wait for volha.Smack-10- to idle
+    t =     7.78s Tap "logInButton" Button
+    t =     7.78s     Wait for volha.Smack-10- to idle
+    t =     7.79s     Find the "logInButton" Button
+    t =     7.83s     Check for interrupting elements affecting "logInButton" Button
+    t =     7.85s     Synthesize event
+    t =     7.92s     Wait for volha.Smack-10- to idle
+    t =     8.48s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =     9.48s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =     9.48s         Checking existence of `"CHANNELS" StaticText`
+    t =     9.52s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =    10.55s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =    10.55s         Checking existence of `"CHANNELS" StaticText`
+    t =    10.58s Waiting 15.0s for "stubName" StaticText to exist
+    t =    11.58s     Checking `Expect predicate `exists == 1` for object "stubName" StaticText`
+    t =    11.58s         Checking existence of `"stubName" StaticText`
+    t =    11.61s Tap "loginButtonUserName" Button
+    t =    11.61s     Wait for volha.Smack-10- to idle
+    t =    11.63s     Find the "loginButtonUserName" Button
+    t =    11.65s     Check for interrupting elements affecting "loginButtonUserName" Button
+    t =    11.67s     Synthesize event
+    t =    11.74s     Wait for volha.Smack-10- to idle
+    t =    12.26s Tap "Logout" Button
+    t =    12.26s     Wait for volha.Smack-10- to idle
+    t =    12.28s     Find the "Logout" Button
+    t =    12.31s     Check for interrupting elements affecting "Logout" Button
+    t =    12.33s     Synthesize event
+    t =    12.41s     Wait for volha.Smack-10- to idle
+    t =    12.92s Waiting 25.0s for "CHANNELS" StaticText to exist
+    t =    13.93s     Checking `Expect predicate `exists == 1` for object "CHANNELS" StaticText`
+    t =    13.93s         Checking existence of `"CHANNELS" StaticText`
+    t =    13.95s Waiting 15.0s for "Login" StaticText to exist
+    t =    14.98s     Checking `Expect predicate `exists == 1` for object "Login" StaticText`
+    t =    14.98s         Checking existence of `"Login" StaticText`
+    t =    15.00s Tear Down
+Test Case '-[Smack_10_UITests.Stub testLoginLogoutSub]' passed (15.207 seconds).
+Test Suite 'Stub' passed at 2019-12-01 22:35:56.037.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 40.202 (40.205) seconds
+Test Suite 'Smack(10)UITests.xctest' passed at 2019-12-01 22:35:56.037.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 58.921 (58.928) seconds
+Test Suite 'All tests' passed at 2019-12-01 22:35:56.038.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 58.921 (58.929) seconds
+
+Test session results, code coverage, and logs:
+	/Users/maxe/Library/Developer/Xcode/DerivedData/temporary-egwabdoabjemiwafhtuydajbrxea/Logs/Test/Test-Transient Testing-2019.12.01_22-34-55--0800.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started on 'iPhone 8'

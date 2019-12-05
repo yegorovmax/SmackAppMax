@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "c684cffac9dadf5b584dcf9d0bab0808"
+build_time: [1575268452, 833120000]
+inputs:
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/AFError.swift": [1574584172, 375430579]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Alamofire.swift": [1574584172, 375627383]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1574584172, 375817120]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/MultipartFormData.swift": [1574584172, 375997795]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1574584172, 376210901]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Notifications.swift": [1574584172, 376332998]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/ParameterEncoding.swift": [1574584172, 376506431]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Request.swift": [1574584172, 376722372]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Response.swift": [1574584172, 376908252]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/ResponseSerialization.swift": [1574584172, 377104282]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Result.swift": [1574584172, 377256239]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1574584172, 377410279]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/SessionDelegate.swift": [1574584172, 377669012]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/SessionManager.swift": [1574584172, 377928445]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/TaskDelegate.swift": [1574584172, 378185909]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Timeline.swift": [1574584172, 378316457]
+  "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Validation.swift": [1574584172, 378456088]

@@ -1,0 +1,12 @@
+module Embassy {
+  umbrella header "Embassy-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module Embassy.Swift {
+  header "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Jenkins/build/Build/Products/Debug-iphonesimulator/Embassy/Swift Compatibility Header/Embassy-Swift.h"
+  requires objc
+}
