@@ -38,11 +38,6 @@ class Stub: BaseStubTest {
         channelsScreen = createAccountScreen.createAccount(username: userName, email: email, passowrd: password)
         XCTAssert(isTextPresent(text: userName), "Cant Find userName")
     }
-
-
-    
-    
-    
     func testLoginLogoutSub() {
         Session.shared.registerUser[0].email = email
         Session.shared.registerUser[0].password = password
