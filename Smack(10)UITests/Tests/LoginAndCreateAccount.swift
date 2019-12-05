@@ -24,12 +24,10 @@ class LoginAndCreateAccount: BaseTest {
         channelsScreen = ChannelsScreen()
         XCTAssert(isTextPresent(text: userName), "Cant Find userName")
         
-//        //need to log out
-//        channelsScreen.tapUserNameLoginButton()
-//        channelsScreen.tapLogOutButton()
-//        channelsScreen = ChannelsScreen()
-//        XCTAssert(isTextPresent(text: "Login"), "Cant Find Login text")
-        
-
+        //need to log out
+        channelsScreen.tapUserNameLoginButton()
+        channelsScreen.tapLogOutButton()
+        channelsScreen = ChannelsScreen()
+        XCTAssert(isTextPresent(text: "Login"), "Cant Find Login text")
     }
 }
