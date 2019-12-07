@@ -19,11 +19,7 @@ class Stub: BaseStubTest {
         super.setUp()
 
     }
-
-    func testAddNewChannelStub2TEST() {
-        return
-    }
-    
+// test jenkins
     func testAddNewChannelStub() {
         return
         login()
