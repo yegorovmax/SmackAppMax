@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "dd9d8aafcaf95717828e647afd3b32d3"
-build_time: [1575268478, 776425000]
+build_time: [1575701075, 80632000]
 inputs:
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Readers/DataReader.swift": [1574584172, 382647596]
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/EnvoyAmbassador/Ambassador/Responses/DataResponse.swift": [1574584172, 383069281]

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "fcc7928397d1127188f2fa831325473d"
-build_time: [1575268479, 199212000]
+build_time: [1575701075, 935716000]
 inputs:
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Socket.IO-Client-Swift/Source/SocketIO/Ack/SocketAckEmitter.swift": [1574584172, 387795635]
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Socket.IO-Client-Swift/Source/SocketIO/Ack/SocketAckManager.swift": [1574584172, 387905720]
