@@ -23,6 +23,7 @@ depends-top-level:
 depends-member:
 - !private ["16Smack_10_UITests10BaseScreenC", "init"]
 - !private ["16Smack_10_UITests10BaseScreenC", "login"]
+- !private ["16Smack_10_UITests10BaseScreenC", "tapLogOutButton"]
 - !private ["16Smack_10_UITests10BaseScreenC", "tapSmackBurgerButton"]
 - !private ["16Smack_10_UITests10BaseScreenC", "tapUserNameLoginButton"]
 - !private ["16Smack_10_UITests8BaseTestC", "ChannelsScreen"]
@@ -45,6 +46,7 @@ depends-member:
 - !private ["s7CVarArgP", "password"]
 - !private ["s7CVarArgP", "userName"]
 - !private ["16Smack_10_UITests14ChannelsScreenC", "init"]
+- !private ["16Smack_10_UITests14ChannelsScreenC", "tapLogOutButton"]
 - !private ["16Smack_10_UITests14ChannelsScreenC", "tapUserNameLoginButton"]
 - !private ["s28CustomDebugStringConvertibleP", "ChannelsScreen"]
 - !private ["s28CustomDebugStringConvertibleP", "LoginScreen"]

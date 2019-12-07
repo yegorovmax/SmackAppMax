@@ -62,7 +62,7 @@ depends-member:
 - ["9Smack_10_11AuthServiceC", "instance"]
 - ["9Smack_10_11AuthServiceC", "isLoggedIn"]
 - ["9Smack_10_11AuthServiceC", "loginUser"]
-- ["9Smack_10_11AuthServiceC", "registerUsert"]
+- ["9Smack_10_11AuthServiceC", "registerUser"]
 - !private ["9Smack_10_11AuthServiceC", "sleep"]
 - ["9Smack_10_11AuthServiceC", "userEmail"]
 - !private ["SK", "lowercased"]
@@ -1471,4 +1471,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4ac43be750fd0d6dffe05d884fd64fbf"
+interface-hash: "4d5cf2273b7e79558984f9d25fb3eae3"

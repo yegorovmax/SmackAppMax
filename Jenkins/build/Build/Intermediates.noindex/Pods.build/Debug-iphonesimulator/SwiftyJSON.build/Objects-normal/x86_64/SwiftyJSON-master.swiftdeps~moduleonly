@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "ac8add389be44c17a65f59cb73d9173b"
-build_time: [1575268452, 822519000]
+build_time: [1575701046, 223517000]
 inputs:
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1574584172, 392935892]

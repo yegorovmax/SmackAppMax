@@ -15,7 +15,7 @@ class LoginAndCreateAccount: BaseTest {
     
     let userName = "a@a.a"
     let password = "123"
-
+    
     func testlogin() {
         return
         let smackScreen = SmackScreen()
@@ -25,7 +25,6 @@ class LoginAndCreateAccount: BaseTest {
         channelsScreen = loginScreen.login(username: userName, passowrd: password)
         channelsScreen = ChannelsScreen()
         XCTAssert(isTextPresent(text: userName), "Cant Find userName")
-        
         //need to log out
         channelsScreen.tapUserNameLoginButton()
         channelsScreen.tapLogOutButton()

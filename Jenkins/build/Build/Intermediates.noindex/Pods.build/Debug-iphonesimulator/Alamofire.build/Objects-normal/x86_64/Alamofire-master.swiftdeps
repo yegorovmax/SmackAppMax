@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "c684cffac9dadf5b584dcf9d0bab0808"
-build_time: [1575268452, 833120000]
+build_time: [1575701046, 235269000]
 inputs:
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/AFError.swift": [1574584172, 375430579]
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Alamofire/Source/Alamofire.swift": [1574584172, 375627383]

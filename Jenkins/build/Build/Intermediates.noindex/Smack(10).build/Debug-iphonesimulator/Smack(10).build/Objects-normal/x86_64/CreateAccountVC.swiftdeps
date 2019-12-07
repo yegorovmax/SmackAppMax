@@ -58,7 +58,7 @@ depends-member:
 - !private ["9Smack_10_11AuthServiceC", "createUser"]
 - !private ["9Smack_10_11AuthServiceC", "instance"]
 - !private ["9Smack_10_11AuthServiceC", "loginUser"]
-- !private ["9Smack_10_11AuthServiceC", "registerUsert"]
+- !private ["9Smack_10_11AuthServiceC", "registerUser"]
 - !private ["SK", "contains"]
 - !private ["SB", "init"]
 - !private ["So15CALayerDelegateP", "addGestureRecognizer"]

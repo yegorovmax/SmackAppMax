@@ -8,15 +8,15 @@
 		<string>Smack(10)UITests</string>
 		<key>BundleIdentifiersForCrashReportEmphasis</key>
 		<array>
-			<string>volha.Smack-10-</string>
 			<string>com.max.smack-10-UITests.Smack-10-UITests</string>
+			<string>volha.Smack-10-</string>
 		</array>
 		<key>CommandLineArguments</key>
 		<array/>
 		<key>DependentProductPaths</key>
 		<array>
-			<string>__TESTROOT__/Debug-iphonesimulator/Smack(10).app</string>
 			<string>__TESTROOT__/Debug-iphonesimulator/Smack(10)UITests-Runner.app/PlugIns/Smack(10)UITests.xctest</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/Smack(10).app</string>
 		</array>
 		<key>EnvironmentVariables</key>
 		<dict>

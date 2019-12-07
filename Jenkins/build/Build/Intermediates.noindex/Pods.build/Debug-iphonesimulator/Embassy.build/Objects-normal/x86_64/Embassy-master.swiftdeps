@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "c2866a055f68528e1a07f72ddd9a303f"
-build_time: [1575268452, 814114000]
+build_time: [1575701046, 208953000]
 inputs:
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Embassy/Sources/Atomic.swift": [1574584172, 378977413]
   "/Users/maxe/Documents/IOS BOOTCAMP/1/SmackAppMax/Pods/Embassy/Sources/DefaultHTTPServer.swift": [1574584172, 379099695]
