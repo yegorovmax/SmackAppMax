@@ -5,7 +5,6 @@
 //  Created by Maksim Egorov on 11/24/19.
 //  Copyright © 2019 Max E. All rights reserved.
 
-// test
 
 
 import XCTest
@@ -22,6 +21,9 @@ class Stub: BaseStubTest {
 
     }
 
+    func testAddNewChannelStub2() {
+        return}
+    
     func testAddNewChannelStub() {
         return
         login()
