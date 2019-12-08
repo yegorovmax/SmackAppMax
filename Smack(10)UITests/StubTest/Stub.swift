@@ -20,10 +20,6 @@ class Stub: BaseStubTest {
 
     }
 
-    func testAddNewChannelStub2() {
-    return
-    }
-    
     func testAddNewChannelStub() {
         return
         login()
