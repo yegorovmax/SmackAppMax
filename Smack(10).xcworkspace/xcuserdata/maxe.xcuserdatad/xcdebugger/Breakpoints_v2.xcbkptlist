@@ -34,6 +34,38 @@
             endingLineNumber = "12"
             landmarkName = "SingletonStore"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B89BED17-2405-48F4-9FCD-14E8C0C538EF - 65c67cfced330054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Smack_10_.SingletonStore.__allocating_init() -&gt; Smack_10_.SingletonStore"
+                  moduleName = "Smack(10)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxe/Documents/IOS%20BOOTCAMP/1/SmackAppMax/Smack(10)/model/SingletonStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "B89BED17-2405-48F4-9FCD-14E8C0C538EF - b6afff9a885b43b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Smack_10_.SingletonStore.() -&gt; Smack_10_.SingletonStore(in _DCF38DC3629F43FCC56034ECAA446435).init() -&gt; Smack_10_.SingletonStore"
+                  moduleName = "Smack(10)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxe/Documents/IOS%20BOOTCAMP/1/SmackAppMax/Smack(10)/model/SingletonStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -71,22 +103,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D9321E61-C62D-4ED5-A09F-917CB239827C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Smack(10)/Services/MessageService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "findAllMessages(channelId:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "97148BA4-C6D6-4958-AD21-028842459030"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -97,70 +113,6 @@
             startingLineNumber = "156"
             endingLineNumber = "156"
             landmarkName = "setupAddUserPostCall()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D35DB1B7-C33F-4A6A-92E5-050E3C49E1C7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Smack(10)/Services/MessageService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "findAllMessages(channelId:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DA3B2AE-58E6-485D-AEAA-181EDB905AB0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Smack(10)UITests/StubTest/Stub.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "Stub"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "53C4B45D-C6BA-4AB9-B077-918CF5AE1ABE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Smack(10)UITests/StubTest/Stub.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "setUp()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E4A8D2EC-0338-40EF-BDFC-BB46B511CF23"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Smack(10)UITests/StubTest/Stub.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "setUp()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
